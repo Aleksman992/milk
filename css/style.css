@@ -1,0 +1,132 @@
+@import url(null.css);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+
+body {
+  min-height: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+.wrapper {
+  font-family: Merriweather;
+  font-size: 22px;
+  overflow: hidden;
+  line-height: 130%;
+}
+p:hover {
+  background-color: khaki;
+  cursor: pointer;
+}
+p{
+  padding-bottom: 15px;
+}
+header.header {
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  line-height: 160%;
+  background:  rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,239,0.44861694677871145) 50%, rgba(252,176,69,1) 100%);
+  padding: 20px 0px ;
+  border: 6px double blue ;
+}
+h2 {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  color: blue;
+  text-shadow: 3px 3px 3px yellow;
+  margin-bottom: 20px;
+  border: 4px dashed ;
+  border-radius: 20px;
+  background: rgb(34,156,195);
+  background: linear-gradient(25deg, rgba(34,156,195,1) 0%, rgba(191,45,253,0.3113620448179272) 50%);
+  padding: 15px 0px;
+  
+}
+div.introduction {
+  font-weight: bold;
+  font-size: 28px;
+  text-shadow: 1px 2px 2px red;
+  line-height: 160%;
+  text-transform: uppercase;
+  background-image: url('../img/toples_fon.jpg');
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 0px;
+}
+div.introduction2 {
+  background-image: url('../img/jarlyk.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 15px;
+  font-weight: 700;
+  
+}
+nav.content {
+  text-decoration: underline;
+}
+.example__link {
+  color: #fff;
+  background-color: green;
+  border-radius: 50%;
+  padding: 50px 50px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 20px;
+  box-shadow: 2px 10px 2px 2px #000;
+}
+.example__link:hover {
+  color: red;
+  text-decoration: underline;
+  box-shadow: 0 3px 0 0 #000 ;
+  background-color: chartreuse;
+  margin: 1px 0px 0px 0px;
+}
+.example__link:active {
+  color: blue;
+  margin: 4px 0px 0px 0px;
+  box-shadow: inset 0px 0px 5px 0px #000;
+}
+.sport {
+  background: url('../img/sport.jpg') 0 50% no-repeat;
+  color: brown;
+}
+.sport:hover {
+  background-color: khaki;
+  cursor: pointer;
+}
+p.titi{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 160%;
+  text-align: center;
+  background: url('../img/persiki.jpg') 0 0 / 120px round;
+  padding: 10px 0px;
+}
+li.titi {
+  background: url('../img/persiki.jpg') 0 0 / 30px no-repeat,radial-gradient(circle, rgba(251,135,63,1) 0%, rgba(236,252,70,0.5914740896358543) 100%) ;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  padding-left: 30px; 
+}
+li.list-lov {
+  color: red;
+  background-color: aqua;
+  border-radius: 50% ;
+  padding: 50px 50px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 5px;
+  box-shadow: 5px 5px 5px 5px #000;
+}
+li.list-lov:hover {
+  color: darkblue;
+  text-decoration: underline;
+  box-shadow: 0px 0px 3px 0px #ccc;
+  background-color: lightgreen;
+}
